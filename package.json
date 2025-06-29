@@ -8,11 +8,27 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "paste-email-address",
-      "title": "paste-email-address",
-      "subtitle": "Subtitle for: paste-email-address",
-      "description": "Description for: paste-email-address",
+      "name": "insert-email",
+      "title": "Insert Email Address",
+      "subtitle": "Insert your email address",
+      "description": "Insert your email address at cursor position",
       "mode": "no-view"
+    },
+    {
+      "name": "insert-date",
+      "title": "Insert Current Date",
+      "subtitle": "Insert today's date in YYYY-MM-DD format",
+      "description": "Insert current date in YYYY-MM-DD format at cursor position",
+      "mode": "no-view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "email",
+      "type": "textfield",
+      "required": true,
+      "title": "Email Address",
+      "description": "Your email address to insert"
     }
   ],
   "dependencies": {
