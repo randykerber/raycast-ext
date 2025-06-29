@@ -7,7 +7,7 @@ interface Preferences {
 export default async function Command() {
   try {
     const preferences = getPreferenceValues<Preferences>();
-    
+
     if (!preferences.email) {
       await showToast({
         style: Toast.Style.Failure,
@@ -18,7 +18,7 @@ export default async function Command() {
     }
 
     await Clipboard.paste(preferences.email);
-    
+
     await showToast({
       style: Toast.Style.Success,
       title: "Email Inserted",

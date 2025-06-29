@@ -3,10 +3,10 @@ import { Clipboard, showToast, Toast } from "@raycast/api";
 export default async function Command() {
   try {
     const today = new Date();
-    const dateString = today.toISOString().split('T')[0]; // Format: YYYY-MM-DD
-    
+    const dateString = today.toISOString().split("T")[0]; // Format: YYYY-MM-DD
+
     await Clipboard.paste(dateString);
-    
+
     await showToast({
       style: Toast.Style.Success,
       title: "Date Inserted",
