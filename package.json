@@ -20,6 +20,42 @@
       "subtitle": "Insert today's date in YYYY-MM-DD format",
       "description": "Insert current date in YYYY-MM-DD format at cursor position",
       "mode": "no-view"
+    },
+    {
+      "name": "explain-selection",
+      "title": "Explain Selection",
+      "subtitle": "AI",
+      "description": "Explain selected text using Claude AI",
+      "mode": "view"
+    },
+    {
+      "name": "generate-unit-test",
+      "title": "Generate Unit Test",
+      "subtitle": "AI",
+      "description": "Generate unit tests for selected code using Claude AI",
+      "mode": "view"
+    },
+    {
+      "name": "regex-helper",
+      "title": "Regex Helper",
+      "subtitle": "AI",
+      "description": "Get regex patterns and explanations using AI",
+      "mode": "view"
+    },
+    {
+      "name": "ai-automation",
+      "title": "AI Code Automation",
+      "subtitle": "AI",
+      "description": "Advanced AI automation for code review, refactoring, docs, and security",
+      "mode": "view"
+    },
+    {
+      "name": "wendy-chat",
+      "title": "Wendy Chat",
+      "subtitle": "AI Agent",
+      "description": "Chat with Wendy weather agent - respond to her questions",
+      "mode": "view",
+      "keywords": ["wendy", "weather", "agent", "chat", "syndicate"]
     }
   ],
   "preferences": [
