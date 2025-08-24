@@ -1,7 +1,7 @@
 # Claude Code Session Context
 
 ## Project Overview
-**Extension Name:** Randy's Text Tools  
+**Extension Name:** RK Utilities
 **Purpose:** Personal Raycast extension for text insertion utilities  
 **GitHub:** https://github.com/randykerber/raycast-ext  
 
